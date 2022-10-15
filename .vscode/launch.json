@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "cppdbg",
+      "program": "${workspaceRoot}/bin/main",
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "C/C++: gcc build active file",
+      "request": "launch"
+    }
+  ]
+}
